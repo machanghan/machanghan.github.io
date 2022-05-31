@@ -6,8 +6,14 @@
 <body>
   
 <h1>关于我</h1>
+〇〇后，性别男，直男，爱好女。
+<br/>
+有时文艺，有时严肃，有时逗比，怕生。
+<br/>
+有时候看书，喜欢折腾一些东西。
+<br/>
+现在是一个普通人。<br/>
 
-<p>博客从 <a href="https://imjad.cn/archives/none/hello-world" target="_blank" rel="noopener"><strong>2014.08.11</strong></a> 至今已经运行<span id="htmer_time" style="color: #90CAF9; font-weight: bold;">7年295天11时59分23秒</span></p>
 
 
 有时间在更新<br/>
