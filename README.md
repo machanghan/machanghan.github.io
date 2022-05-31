@@ -1,4 +1,5 @@
 <h1>关于我</h1>
+<p>博客从 <a href="https://imjad.cn/archives/none/hello-world" target="_blank" rel="noopener"><strong>2014.08.11</strong></a> 至今已经运行<span id="htmer_time" style="color: #90CAF9; font-weight: bold;">7年295天11时59分23秒</span></p>
 有时间在更新<br/>
 <h2>联系我</h2>
 微信:zsbhbslsd<br/>
