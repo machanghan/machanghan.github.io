@@ -20,8 +20,9 @@
 <h2>联系我</h2>
 微信:zsbhbslsd<br/>
 E-Mail:1519760857@qq.com<br/>
-QQ：1519760857<br/>
-    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3133067232&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:3133067232:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a><br/>
+
+  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3133067232&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:3133067232:51" alt="QQ" title="QQ"/></a><br/>
+  
 <h2>关于个人名片网站</h2>
 创建于2022/05/30<br/>
 </a>
