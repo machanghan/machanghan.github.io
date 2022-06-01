@@ -6,7 +6,7 @@
 <body>
   
 <h1>关于我</h1>
-〇〇后，性别男，直男，爱好女。
+〇〇后，性别男。
 <br/>
 有时文艺，有时严肃，有时逗比，怕生。
 <br/>
@@ -18,8 +18,7 @@
 
 
 <h2>联系我</h2>
-微信:zsbhbslsd<br/>
-E-Mail:1519760857@qq.com<br/>
+
 
   <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3133067232&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:3133067232:51" alt="QQ" title="QQ"/></a><br/>
   
