@@ -69,13 +69,6 @@
 	
 
 
-<table>
-<tr>
-<td valign="top" width="50%">
-
-<table>
-<tr>
-<td valign="top" width="50%">
 
 	
 <h2>《相见欢·无言独上西楼》</h2>
