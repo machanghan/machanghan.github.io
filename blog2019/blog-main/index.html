@@ -1,0 +1,227 @@
+﻿﻿
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-title" content="欢迎来到我的个人主页">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta name="author" content="">
+	<meta name="" content="我就是我" />
+	<meta name="description" content="">
+	<link rel='stylesheet' href='css/css.css' type='text/css'/>
+	<link rel='stylesheet' href='css/font-awesome.min.css' type='text/css'/>
+	<link rel='stylesheet' href='css/style.css' type='text/css'/>
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	<link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+	<title>马昌翰的个人网站-Ma Changhan‘s Personal Website</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/respond.min.js"></script>
+
+
+	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+    <div id="wrapper">
+        <article id="home" class="panel special" style="display: flex;">
+            <div class="image" style="background-image: url('images/image1.jpg'); background-position: center center;">
+                <img src="images/image1.jpg" alt="" data-position="center center" style="display: none;">
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <header>
+                        <h1>马昌翰的个人网站</h1>
+                        <p><script src="https://tenapi.cn/yiyan/get/?code=js"></script></p>
+                    </header>
+                    <nav id="nav">
+                        <ul class="actions vertical special spinY">
+                            <li><a href="#about-me" class="button">网络日志(Blog)</a>
+                            </li>
+
+                            <li>
+                                <a href="mp.html" class="button">我的社交媒体卡片</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                
+                </div>
+            </div>
+        </article>
+        <article id="about-me" class="panel secondary inactive" style="display: none;">
+            <div class="image" style="background-image: url('images/image5.jpg'); background-position: center center;">
+                <img src="images/image5.jpg" alt="" data-position="center center" style="display: none;">
+            </div>
+            <div class="content">
+                <ul class="actions spinX">
+                    <li><a href="#home" class="button small back">返回</a>
+                    </li>
+                </ul>
+                <div class="inner">
+                    <header>
+                        <h2>网络日志(Blog)</h2>
+                        <blockquote>施工中......请耐心等候</div></blockquote>
+                        <h5>更多：machanghan.com</h5>
+                    </header>
+                 
+                    <p>
+                    	<strong>ID：</strong>\<br>
+                    	<strong>性别：</strong>男<br>
+                    	<strong>签名：</strong>生活，就是心怀着最大的善念，在荆棘中穿行，即使被刺伤也亦不改初衷。<br>
+                        <strong>微信号：</strong>2812248497<br>
+                    </p>
+              
+                    </div>
+            </div>
+        </article>
+
+        <article id="business-card" class="panel secondary inactive" style="display: none;">
+            <div class="content">
+                <ul class="actions spinX">
+                    <li><a href="#home" class="button small back">返回</a>
+                    </li>
+                </ul>
+
+        </article>
+    <footer id="footer" class="">
+           <p class="copyright">Copyright &copy; 2022 <a target="_blank" href="http://machanghan.com">machanghan All Rights Reserved.</a></p>
+        </footer>
+  
+        <div>         
+            <div align="center"><span id="momk"></span><span id="momk" style="color: #ff0000;"></span>
+              <script type="text/javascript">
+   function NewDate(str) {
+   str = str.split('-');
+   var date = new Date();
+   date.setUTCFullYear(str[0], str[1] - 1, str[2]);
+   date.setUTCHours(0, 0, 0, 0);
+   return date;
+   }
+   function momxc() {
+   var birthDay =NewDate("2019-5-30");
+   var today=new Date();
+   var timeold=today.getTime()-birthDay.getTime();
+   var sectimeold=timeold/1000
+   var secondsold=Math.floor(sectimeold);
+   var msPerDay=24*60*60*1000; var e_daysold=timeold/msPerDay;
+   var daysold=Math.floor(e_daysold);
+   var e_hrsold=(daysold-e_daysold)*-24;
+   var hrsold=Math.floor(e_hrsold);
+   var e_minsold=(hrsold-e_hrsold)*-60;
+   var minsold=Math.floor((hrsold-e_hrsold)*-60); var seconds=Math.floor((minsold-e_minsold)*-60).toString();
+   document.getElementById("momk").innerHTML = "马昌翰的个人网站-Ma Changhan‘s Personal Website已安全运行："+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+   setTimeout(momxc, 1000);
+   }momxc();
+              </script> 
+    </div>
+    
+
+
+    <!--[if lte IE 8]><![endif]-->
+    <script>
+        (function($) {
+            skel.breakpoints({
+                xlarge: '(max-width: 1680px)',
+                large: '(max-width: 1280px)',
+                medium: '(max-width: 980px)',
+                small: '(max-width: 736px)',
+                xsmall: '(max-width: 480px)',
+                xxsmall: '(max-width: 360px)'
+            });
+            $(function() {
+                var $window = $(window),
+                    $document = $(document),
+                    $body = $('body'),
+                    $wrapper = $('#wrapper'),
+                    $footer = $('#footer');
+                $window.on('load', function() {
+                    window.setTimeout(function() {
+                        $body.removeClass('is-loading-0');
+                        window.setTimeout(function() {
+                            $body.removeClass('is-loading-1');
+                        }, 1500);
+                    }, 100);
+                });
+                $('form').placeholder();
+                var $wrapper = $('#wrapper'),
+                    $panels = $wrapper.children('.panel'),
+                    locked = true;
+                $panels.not($panels.first()).addClass('inactive').hide();
+                $panels.each(function() {
+                    var $this = $(this),
+                        $image = $this.children('.image'),
+                        $img = $image.find('img'),
+                        position = $img.data('position');
+                    $image.css('background-image', 'url(' + $img.attr('src') + ')');
+                    if (position) $image.css('background-position', position);
+                    $img.hide();
+                });
+                window.setTimeout(function() {
+                    locked = false;
+                }, 1250);
+                $('a[href^="#"]').on('click', function(event) {
+                    var $this = $(this),
+                        id = $this.attr('href'),
+                        $panel = $(id),
+                        $ul = $this.parents('ul'),
+                        delay = 0;
+                    event.preventDefault();
+                    event.stopPropagation();
+                    if (locked) return;
+                    locked = true;
+                    $this.addClass('active');
+                    if ($ul.hasClass('spinX') || $ul.hasClass('spinY')) delay = 250;
+                    window.setTimeout(function() {
+                        $panels.addClass('inactive');
+                        $footer.addClass('inactive');
+                        window.setTimeout(function() {
+                            $panels.hide();
+                            $panel.show();
+                            $document.scrollTop(0);
+                            window.setTimeout(function() {
+                                $panel.removeClass('inactive');
+                                $this.removeClass('active');
+                                locked = false;
+                                $window.triggerHandler('--refresh');
+                                window.setTimeout(function() {
+                                    $footer.removeClass('inactive');
+                                }, 250);
+                            }, 100);
+                        }, 350);
+                    }, delay);
+                });
+                if (skel.vars.IEVersion < 12) {
+                    $window.on('--refresh', function() {
+                        $wrapper.css('height', 'auto');
+                        window.setTimeout(function() {
+                            var h = $wrapper.height(),
+                                wh = $window.height();
+                            if (h < wh) $wrapper.css('height', '100vh');
+                        }, 0);
+                        if (skel.vars.IEVersion < 10) {
+                            var $panel = $('.panel').not('.inactive'),
+                                $image = $panel.find('.image'),
+                                $content = $panel.find('.content'),
+                                ih = $image.height(),
+                                ch = $content.height(),
+                                x = Math.max(ih, ch);
+                            $image.css('min-height', x + 'px');
+                            $content.css('min-height', x + 'px');
+                        }
+                    });
+                    $window.on('load', function() {
+                        $window.triggerHandler('--refresh');
+                    });
+                    $('.spinX').removeClass('spinX');
+                    $('.spinY').removeClass('spinY');
+                }
+            });
+        })(jQuery);
+    </script>
+</body>
+
+</html>
