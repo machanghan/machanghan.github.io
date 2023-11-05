@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>与马昌翰聊天中</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.min.css'><link rel="stylesheet" href="./style.css">
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body, html{
+    width: 100%;
+    height: 100%;
+  }
+  #header{
+    width: 100%;
+    height: 15%;
+    background-color: blue;
+  }
+  #footer{
+    width: 100%;
+    height: 10%;
+    background-color: purple;
+  }
+</style>
+
+
+</head>
+<body>
+<div align="center">
+  <table width="100%" border="0">
+    <tr>
+      <th scope="col">&nbsp;</th>
+      <th scope="col">&nbsp;</th>
+      <th scope="col">&nbsp;</th>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><div class="chat">
+        <div class="chat-title">
+          <h2>马昌翰</h2>
+          <figure class="avatar"><img src="https://avatars.githubusercontent.com/u/56143947?v=4"/></figure>
+  </div>
+        <div class="messages">
+          <div class="messages-content"></div>
+        </div>
+        <div class="action-box">
+          <textarea class="action-box-input" type="text" placeholder="Type message..."></textarea>
+          <button class="action-box-submit" type="submit" onclick="insertMessage()"><i class="fa fa-paper-plane"></i></button>
+      </div></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+  
+  <!-- partial:index.partial.html -->
+  
+  
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.concat.min.js'></script>
+  <script  src="./script.js"></script>
+</div>
+
+</body>
+</html>
